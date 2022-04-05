@@ -9,6 +9,8 @@ find_package(SFML 2.5.1 COMPONENTS graphics audio REQUIRED)
 add_executable(
     out
     src/main.cpp
+    src/readbytes.cpp
+    src/MIDI.cpp
 )
 target_link_libraries(
     out
